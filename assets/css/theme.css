@@ -1,0 +1,38 @@
+:root {
+    --background: #ffffff;
+    --background-secondary: #f7f7f7;
+    --text-color: #1a1a1a;
+    --text-secondary: #555;
+    --primary: #0d6efd;
+    --border-color: #e5e5e5;
+    --card-bg: #ffffff;
+}
+
+.dark {
+    --background: #111111;
+    --background-secondary: #1a1a1a;
+    --text-color: #f0f0f0;
+    --text-secondary: #c3c3c3;
+    --primary: #0d6efd;
+    --border-color: #2c2c2c;
+    --card-bg: #181818;
+}
+
+
+body {
+    background-color: var(--background);
+    color: var(--text-color);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
